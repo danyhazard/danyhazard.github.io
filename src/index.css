@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: #38bdf8;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.btn.primary {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+.btn.primary:hover {
+  background-color: #0ea5e9;
+}
+
+.btn.secondary {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.btn.secondary:hover {
+  background-color: rgba(56, 189, 248, 0.1);
+}
+
+.projects {
+  padding: 6rem 2rem;
+  background-color: #020617;
+}
+
+.projects-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.projects h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+}
+
+.project-card {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #cbd5f5;
+  margin-bottom: 1rem;
+}
+
+.project-stack {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.project-actions {
+  display: flex;
+  gap: 1rem;
+}
